@@ -1,0 +1,74 @@
+
+{
+	"buildFiles" : [ "C:/dev/multi_project/nativeservice/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\x86 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/RemoteService.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/aidl/com/myiface/nullservice/IRemoteService.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/aidl/com/myiface/nullservice/IRemoteServiceListener.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/aidl/com/myiface/nullservice/EResultQuery.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/aidl/com/myiface/nullservice/Location.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android29 --gcc-toolchain=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS -IC:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/aidl/com/myiface/nullservice/Option.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/dev/multi_project/nativeservice/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+			"toolchain" : "3796806045"
+		}
+	},
+	"toolchains" : 
+	{
+		"3796806045" : 
+		{
+			"cCompilerExecutable" : "C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/android-ndk-r21-windows-x86_64/android-ndk-r21/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

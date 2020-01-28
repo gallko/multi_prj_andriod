@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\release\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "C:\\dev\\multi_project\\nativeservice\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

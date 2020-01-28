@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "C:/dev/multi_project/nativeservice/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android29 --gcc-toolchain=C:/Users/RYunusov/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/RYunusov/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++1z -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/dev/multi_project/nativeservice/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/dev/multi_project/nativeservice/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/dev/multi_project/nativeservice/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "2490164315"
+		}
+	},
+	"toolchains" : 
+	{
+		"2490164315" : 
+		{
+			"cCompilerExecutable" : "C:/Users/RYunusov/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/RYunusov/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

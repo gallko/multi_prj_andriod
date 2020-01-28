@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\dev\\multi_project",
+      "sdkFolder": "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\dev\\multi_project\\nativeservice\\build\\intermediates",
+      "gradleModulePathName": ":nativeservice",
+      "moduleRootFolder": "C:\\dev\\multi_project\\nativeservice",
+      "makeFile": "C:\\dev\\multi_project\\nativeservice\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\dev\\multi_project\\.cxx",
+      "cxxFolder": "C:\\dev\\multi_project\\nativeservice\\.cxx",
+      "ndkFolder": "C:\\Users\\RYunusov\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dc++1z"
+    ],
+    "variantName": "debug",
+    "soFolder": "C:\\dev\\multi_project\\nativeservice\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "C:\\dev\\multi_project\\nativeservice\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 29,
+  "cxxBuildFolder": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "C:\\dev\\multi_project\\nativeservice\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\dev\\multi_project\\nativeservice\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}
